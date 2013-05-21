@@ -1,0 +1,187 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2012 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+/**
+ * @var Mage_Page_Block_Html_Header $this
+ */
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Jubilant Retail</title>
+<link rel="stylesheet" href="css/jubilant_retail.css" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jubilant_retail.js"></script>
+ 
+</head>
+
+<body>
+ <div class="container div_left">
+  <div class="wrapper div_center">
+ 
+   <!--Header Starts-->
+   <div class="wrapper_segment header div_left">
+   
+     <!--Logo Portion Starts-->
+    <div class="col_left logo_portion">
+         
+ 
+        <img class="div_center" src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a> 
+      <!--<a href="#"><img class="div_center" src="images/logo.png" alt="jubilant Retail" /></a> -->
+ 
+    </div>
+
+      
+    
+    
+    <!--Header Right Starts-->
+    <div class="header_right div_right">
+     <span>
+      <div class="div_right">
+       <p><b>Welocome</b>Jubilant User!</p>
+       <ul class="login_links">
+        <li><a href="#">Login</a></li>
+       </ul>
+      </div>
+     </span>
+     <span>
+      <div class="div_right">
+        
+       <a class="href_btn_1" href="#">Contact Us</a>
+      </div>
+     </span>
+    </div>
+    <!--Header Right End-->
+    
+    
+   </div>
+   <!--Header End-->
+   
+   <!--Main Menu Starts-->
+   
+   <!--Main Menu End-->
+   
+   <!--Body Contant Starts-->
+   <div class="wrapper_segment body_contant">
+    
+    <!--Left Gadget Contants Starts-->
+    <div class="col_left talign_center">
+
+     &nbsp;
+     
+    </div>
+    <!--Left Gadget Contants End-->
+    
+    <!--Center Body Contants Starts-->
+    <div class="col_center talign_center">
+     
+     <!--search portion starts-->
+     <div class="content_section div_left">
+      <h1>Sign Up</h1>
+      <table class="form_table">
+       <tr>
+        <th>First Name</th>
+        <td><input type="text" class="text_box_1" value="Enter Your First Name"/></td>
+       </tr>
+       <tr>
+        <th>E-Mail</th>
+        <td><input type="text" class="text_box_1" value="Enter Your E-Mail ID"/></td>
+       </tr>
+       <tr>
+        <th>Select Store</th>
+        <td>
+         <select>
+          <option>Select Store</option>
+          <option>Store 1</option>
+          <option>Store 2</option>
+          <option>Store 3</option>
+         </select>
+        </td>
+       </tr>
+       <tr>
+        <th>Contact No</th>
+		<td>
+         <input type="text" class="text_box_1 contatct_no_txt_bx" value="+91"/>
+         <input type="button" class="btn_1" value="Verify" />
+        </td>
+       </tr>
+       <tr>
+        <th>OTP</th>
+        <td><input type="text" class="text_box_1" value=" "/></td>
+       </tr>
+       <tr>
+        <td colspan="2" align="center"><input type="button" class="btn_1" value="Register" /></td>
+       </tr>
+       <!--<tr>
+        <td colspan="2" align="center">
+         <input type="button" class="btn_1" value="Face Book" />
+         <input type="button" class="btn_1" value="Google" />
+         <input type="button" class="btn_1" value="Liked In" />
+        </td>
+       </tr>-->
+      </table>
+     </div>
+     <!--search portion end-->
+     
+     
+     
+    </div>
+    <!--Center Body Contants End-->
+    
+    <!--Right Gadget Contants Starts-->
+    <div class="col_right talign_center"> 
+     &nbsp;
+    </div>
+    <!--Right Gadget Contants End-->
+    
+   </div>
+   <!--Body Contant End-->
+   
+  </div>
+ </div>
+</body>
+</html> 
+
+<?php /* <div class="header-container">
+    <div class="header">
+        <?php if ($this->getIsHomePage()):?>
+        <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>
+        <?php else:?>
+        <a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a>
+        <?php endif?>
+        <div class="quick-access">
+            <?php //echo $this->getChildHtml('topSearch') ?>
+            <p class="welcome-msg"><?php echo $this->getWelcome() ?> <?php echo $this->getAdditionalHtml() ?></p>
+            <?php //echo $this->getChildHtml('topLinks') ?>
+            <?php //echo $this->getChildHtml('store_language') ?>
+        </div>
+        <?php //echo $this->getChildHtml('topContainer'); ?>
+    </div>
+</div>
+<?php //echo $this->getChildHtml('topMenu') ?>  */ ?> 
