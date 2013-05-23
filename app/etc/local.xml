@@ -28,10 +28,10 @@
 <config>
     <global>
         <install>
-            <date><![CDATA[Fri, 17 May 2013 07:08:09 +0000]]></date>
+            <date><![CDATA[Thu, 23 May 2013 13:47:07 +0000]]></date>
         </install>
         <crypt>
-            <key><![CDATA[f9eaf7bf3d0c11af97b64a57e7185d0a]]></key>
+            <key><![CDATA[351277aaffa2ba1fb76e63178e1e4ed4]]></key>
         </crypt>
         <disable_local_modules>false</disable_local_modules>
         <resources>
@@ -42,8 +42,8 @@
                 <connection>
                     <host><![CDATA[localhost]]></host>
                     <username><![CDATA[root]]></username>
-                    <password><![CDATA[]]></password>
-                    <dbname><![CDATA[jubi]]></dbname>
+                    <password><![CDATA[Optima@123]]></password>
+                    <dbname><![CDATA[jubilant]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>
                     <type><![CDATA[pdo_mysql]]></type>
@@ -52,7 +52,7 @@
                 </connection>
             </default_setup>
         </resources>
-        <session_save><![CDATA[db]]></session_save>
+        <session_save><![CDATA[files]]></session_save>
     </global>
     <admin>
         <routers>

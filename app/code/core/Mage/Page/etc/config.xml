@@ -70,11 +70,6 @@
                     <template>page/3columns.phtml</template>
                     <layout_handle>page_three_columns</layout_handle>
                 </three_columns>
-                <main module="page" translate="label">
-                    <label>main</label>
-                    <template>page/main.phtml</template>
-                    <layout_handle>page_main</layout_handle>
-                </main>
             </layouts>
         </page>
     </global>
